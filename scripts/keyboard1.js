@@ -27,7 +27,9 @@ $(document).jkey('space', function(e) {
 	
 });
 
-
+$(window).scroll(function(){
+	console.log("tatata");
+});
 // $(document).jkey('left', function(e) {
 // 	position[0]-=1;
 // 	$("#object1").css({"left":position[0]+"px","top":position[1]+"px"});
