@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: white;
+}
+.object{
+	position:absolute;
+}
+.dot{
+	width:0.5vw;
+	height:0.5vw;
+	border-radius: 50%;
+	background-color: blue;
+	
+}
+.line{
+	border:1px solid red;
+	background-color:yellow;
+}
+/*.sphere {
+  background: radial-gradient(circle at 100px 100px, blue, #000);
+}*/
+#object1{
+	
+}
+.plane{
+	width:100px;
+	height:100px;
+	border: 1px solid red;
+	background-color: yellow;
+}
